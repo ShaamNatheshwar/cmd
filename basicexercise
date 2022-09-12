@@ -1,0 +1,584 @@
+<!-- Basic commands -->
+To go back from one directory
+
+
+
+To go back to 2 directories
+
+
+
+To see the contents folders and files
+
+
+
+To go back to parent directory
+
+
+
+to move forward in terms of directory use 
+
+
+
+
+
+To move much quicker instead of multiple cd
+
+
+
+
+
+
+To create a folder in a specific location
+
+
+
+
+
+To rename a folder
+
+
+
+
+
+To create a new file say a ppt
+
+
+
+
+
+To copy files
+
+
+
+
+
+To delete
+
+
+
+
+
+To remove directory
+
+
+
+
+
+
+<!-- Tasks and services -->
+To see the number of tasks going on
+
+
+
+
+<!-- use upcursor key to go back to the command we typed in b4 -->
+
+To end one ongoing task
+
+
+
+
+
+To get all the working service
+
+
+
+
+To stop a service
+
+
+
+
+To start a service
+
+
+
+
+
+To get the drivers in our device
+
+
+
+
+<!-- System and program information -->
+
+Getting system and program information
+
+To get the software information of device in a notepad
+wmic
+
+
+
+
+To know about our cpu
+
+
+
+
+
+to exit an action
+
+
+
+
+
+To know about the disks
+
+
+
+
+To know about the attached disk and other stuffs
+
+
+
+
+To select the disk
+
+
+
+
+To get the details of the disk
+
+
+
+
+
+To check the error in the disk
+
+
+
+
+
+To get the mac address of the machine
+
+
+
+
+
+
+To get whole system information
+
+
+
+
+
+<!-- Managing user account -->
+
+Managing user accounts
+
+<!-- lusrmg.msc to know about all the user in serch -->
+
+in cmd
+To check the user
+
+
+
+
+To create a new user
+
+
+
+
+
+To make administrator active always
+
+
+
+
+
+To remove password
+
+
+
+
+press jst enter nothing else
+
+<!-- Hide/ encrypting and doing other stuffs with file -->
+
+Hide/encrypting files
+
+see also practice the gui method for these
+
+To hide
+
+
+
+
+To unhide
+
+
+
+
+for encryption
+
+
+
+
+
+for decryption
+
+
+
+
+
+To rekey or update a new key saying that user there are some changes
+
+
+
+
+
+to tell the file with extension detail
+
+
+
+
+
+<!-- exporting information  -->
+
+exporting files
+To get the tasks on notepad
+
+
+
+
+
+To get our textt in the file
+
+
+
+
+
+To get multiple lines of text
+
+
+
+
+
+
+to get out press ctrl+z
+
+To see the content
+
+
+
+
+
+To get fresh file
+
+
+
+
+
+<!-- Formatting and labelling -->
+format, label, boot usb
+
+To get into diskManagement environment
+
+
+
+
+
+To select a disk
+
+
+
+
+
+To clean the disk
+
+
+
+
+
+To create a partition
+
+
+
+
+
+Now select the partition
+
+
+
+
+
+
+now give
+
+
+now 
+
+
+Now give
+
+and change to shaam
+
+see this one is not practically done we need a pendrive to test the stuffs
+
+<!-- Shutdown history and tree -->
+SHUTDOWN, HISTORY, TREE
+To get the relationship
+
+
+
+
+
+To change the date
+
+
+
+
+
+To change time
+
+
+
+
+
+To check the history of previously executed commands
+
+
+
+
+
+
+To shutdown our device
+
+
+
+
+
+
+To restart
+
+
+<!-- To check schedule and tasks -->
+
+Commands to schedule 
+
+
+
+To check automatic disk
+
+
+
+
+
+To open control panel
+
+
+
+
+
+To see the ongoing tasks
+
+
+
+
+
+
+similarly to export files to the specific files
+
+
+
+
+
+
+To get version
+
+
+
+
+To get to know how many users are using our files
+
+
+
+
+
+
+
+
+To get the iprouter
+
+
+
+
+
+
+To get all the info regarding ip
+
+
+
+
+
+
+To refresh IP
+
+
+
+
+
+
+To display all the dns
+
+
+
+
+
+
+To flush the dns
+
+
+
+
+
+
+
+
+
+To check whether the computer is available or not
+
+
+
+
+
+To get more accessibility
+
+
+
+
+
+To access the ping again and again
+
+
+
+
+
+To get the name of the pc
+
+
+
+
+
+jst find a working ip address and jst keep on play with the -?
+
+
+
+To find out how far the device is from destination
+
+
+
+
+
+
+and to use other
+
+
+
+
+
+gives current network activity and port actions
+
+
+
+
+
+
+  -  to get the mac address
+ - to get how many devices are connected as of now
+ - what address are connected we have to set type and give it an address set type=MX
+ - entire information about system
+ - to routeprint
+
+
+
+To forcefully close an ongoing class
+
+
+
+
+
+
+<!-- gpu update -->
+To update your gpu
+
+
+
+
+
+
+To update forecefully
+
+
+
+
+
+
+To reduce the time of gpudate
+
+
+
+
+
+
+
+
+ -  and use the stuffs that can be used along
+
+
+
+used to connect computer to shared files
+
+
+
+
+
+
+to delete it
+
+
+
+
+
+
+<!-- copy files -->
+To copy files
+
+
+
+
+To override the files
+
+
+
+
+evn xcopy works the same way
+
+robocopy
+
+to get specific extension
+dir *.jpeg
+
+
+
+
+<!-- Some other -->
+rmdir <filename>
+and give y
+
+to go along the path variable
+
+
+
+
+
+to get how many local disk
+
+
+
+
+
+color to change the bg and textcolor
+
+<!-- To open vscode -->
+ to open up the directory
