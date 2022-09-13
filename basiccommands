@@ -1,185 +1,185 @@
 <!-- Basic commands -->
-To go back from one directory
+1To go back from one directory
 
 cd ..
 
-To go back to 2 directories
+2To go back to 2 directories
 
 cd../..
 
-To see the contents folders and files
+3To see the contents folders and files
 
 dir
 
-To go back to parent directory
+4To go back to parent directory
 
 cd\
 
-to move forward in terms of directory use 
+5to move forward in terms of directory use 
 
 cd<DirectoryName>
 
-To move much quicker instead of multiple cd
+6To move much quicker instead of multiple cd
 
 cd\<Name1>\<Name2>
 
-To create a folder in a specific location
+7To create a folder in a specific location
 
 mkdir<Name>
 
-To rename a folder
+8To rename a folder
 ren <oldName><newName>
 
-To create a new file say a ppt
+9To create a new file say a ppt
 
 type nul> shaam.pptx
 
-To copy files
+10To copy files
 copy<fromName><ToName>
 
-To delete
+11To delete
 del<fileName>
 
-To remove directory
+12To remove directory
 rmdir<Name> make sure there aint any files
 
 
 <!-- Tasks and services -->
-To see the number of tasks going on
+13To see the number of tasks going on
 tasklist
 
 use upcursor key to go back to the command we typed in b4
 
-To end one ongoing task
+14To end one ongoing task
 taskkill /PID 7100
 
-To get all the working service
+15To get all the working service
 net start
 
-To stop a service
+16To stop a service
 net stop "<the servicename>"
 
-To start a service
+17To start a service
 net start "<the servicename>"
 
 
-To get the drivers in our device
+18To get the drivers in our device
 driverquery
 
 <!-- System and program information -->
 
-Getting system and program information
+19Getting system and program information
 
-To get the software information of device in a notepad
+20To get the software information of device in a notepad
 wmic
 /output:c:\ssn.txt product name,version
 
-To know about our cpu
+21To know about our cpu
 cpu
 
-to exit an action
+22to exit an action
 exit
 
-To know about the disks
+23To know about the disks
 diskpart
 
-To know about the attached disk and other stuffs
+24To know about the attached disk and other stuffs
 list disk
 
-To select the disk
+25To select the disk
 select disk 0 
 
-To get the details of the disk
+26To get the details of the disk
 detail disk
 
-To check the error in the disk
+27To check the error in the disk
 chkdsk
 
-To get the mac address of the machine
+28To get the mac address of the machine
 getmac
 
-To get whole system information
+29To get whole system information
 systeminfo
 
 <!-- Managing user account -->
 
-Managing user accounts
+30Managing user accounts
 
 lusrmg.msc to know about all the user in serch
 
 in cmd
-To check the user
+31To check the user
 net user
 
-To create a new user
+32To create a new user
 net user jss/add Password
 
-To make administrator active always
+33To make administrator active always
 net user administrator / active:yes
 
-To remove password
+34To remove password
 net user "administrator" *
 press jst enter nothing else
 
 <!-- Hide/ encrypting and doing other stuffs with file -->
 
-Hide/encrypting files
+35Hide/encrypting files
 
 see also practice the gui method for these
 
-To hide
+36To hide
 attrib +h +r +s
 
-To unhide
+37To unhide
 attrib -h -r -s
 
-for encryption
+38for encryption
 cipher /e
 
-for decryption
+39for decryption
 cipher /d
 
-To rekey or update a new key saying that user there are some changes
+40To rekey or update a new key saying that user there are some changes
 cipher /rekey
 
-to tell the file with extension detail
+41to tell the file with extension detail
 assoc.txt
 
 <!-- exporting information  -->
 
-exporting files
+42exporting files
 To get the tasks on notepad
 
 tasklist > ssn.txt
 
-To get our textt in the file
+43To get our textt in the file
 echo <text> > ssnText.txt
 
 To get multiple lines of text
-copy con ssnt.txt
+44copy con ssnt.txt
 this is a text
 
 to get out press ctrl+z
 
-To see the content
+45To see the content
 type <filename>
 
-To get fresh file
+46To get fresh file
 type nul><fileName>
 
 <!-- Formatting and labelling -->
 format, label, boot usb
 
-To get into diskManagement environment
+47To get into diskManagement environment
 diskpart
 
-To select a disk
+48To select a disk
 select disk1
 
-To clean the disk
+49To clean the disk
 clean
 
-To create a partition
+50To create a partition
 create partition primary
 
 Now select the partition
@@ -200,49 +200,49 @@ see this one is not practically done we need a pendrive to test the stuffs
 
 <!-- Shutdown history and tree -->
 SHUTDOWN, HISTORY, TREE
-To get the relationship
+50To get the relationship
 tree
 
-To change the date
+51To change the date
 date
 
-To change time
+52To change time
 time
 
-To check the history of previously executed commands
+53To check the history of previously executed commands
 doskey/history
 
-To shutdown our device
+54To shutdown our device
 shutdown -s -t 
 
-To restart
+55To restart
 shutdown -r -t
 
 <!-- To check schedule and tasks -->
 
 Commands to schedule 
-To check automatic disk
+56To check automatic disk
 CHKNTFS <diskName>
 
-To open control panel
+57To open control panel
 control
 
-To see the ongoing tasks
+58To see the ongoing tasks
 schtasks
 
-similarly to export files to the specific files
+59similarly to export files to the specific files
 schtasks > <filename>
 
-To get version
+60To get version
 ver
 
-To get to know how many users are using our files
+61To get to know how many users are using our files
 openfiles
 
 <!-- IPCONFIG -->
 
 
-To get the iprouter
+62To get the iprouter
 ipconfig
 
 To get all the info regarding ip
@@ -259,7 +259,7 @@ ipconfig /flushdns
 
 
 <!-- PING TOOL -->
-To check whether the computer is available or not
+63To check whether the computer is available or not
 ping <ipaddress>
 
 To get more accessibility
@@ -275,7 +275,7 @@ jst find a working ip address and jst keep on play with the -?
 
 
 <!-- TRACERT -->
-To find out how far the device is from destination
+64To find out how far the device is from destination
 
 tracert www.google.com
 
@@ -283,30 +283,30 @@ and to use other
 tracert -?
 
 <!-- NETSTAT -->
-gives current network activity and port actions
+65gives current network activity and port actions
 
 netstat
 
 <!-- Some other commands -->
-getmac /v to get the mac address
-ARP - to get how many devices are connected as of now
-nslookup - what address are connected we have to set type and give it an address set type=MX
-systeminfo - entire information about system
-routeprint
+66getmac /v to get the mac address
+67ARP - to get how many devices are connected as of now
+68nslookup - what address are connected we have to set type and give it an address set type=MX
+69systeminfo - entire information about system
+70routeprint
 
 
 <!-- TASKKILL -->
 To forcefully close an ongoing class
 
-taskkill /f /im notepad.exe
-taskkill /PID 6740
+71taskkill /f /im notepad.exe
+72taskkill /PID 6740
 
 
 <!-- gpu update -->
-To update your gpu
+73To update your gpu
 gpupdate
 
-To update forecefully
+74To update forecefully
 gpupdate /force
 gpudate /target:User
 To reduce the time of gpudate
@@ -314,7 +314,7 @@ gpupdate /wait:0
 
 
 <!-- GPRESULT -->
-gpresult -? and use the stuffs that can be used along
+75gpresult -? and use the stuffs that can be used along
 
 
 <!-- netuse -->
@@ -327,7 +327,7 @@ net use x: /delete
 
 
 <!-- copy files -->
-To copy files
+78To copy files
 copy abcd.txt c:\Users
 
 To override the files
@@ -354,9 +354,9 @@ to get how many local disk
 wmic logicaldisk get name
 
 use 
-color to change the bg and textcolor
+79color to change the bg and textcolor
 
 <!-- To open vscode -->
-code
+80code
 
 code . to open up the directory
